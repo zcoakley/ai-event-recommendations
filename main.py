@@ -7,7 +7,11 @@ email you at a regular interval with events that are happening soon.
 
 1. Paste your filled out interests document into interests.txt
 2. Fill in the site you want to scrape from in the config options below
-3. Enter your OpenAI API key, email, and email app password in .env
+3. Enter your OpenAI API key, email, and email app password in a .env file
+
+    OPENAI_API_KEY="api_key_here"
+    MY_EMAIL = "your.email@gmail.com"
+    EMAIL_APP_PASSWORD = "your_app_password"
 
 """
 
